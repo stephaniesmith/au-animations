@@ -9,6 +9,11 @@ import { fadeInOut } from './animations';
 })
 export class AppComponent {
 
+    onAnimationStart() {
+        console.log('start');
+    }
 
-
+    onAnimationEnd() {
+        console.log('end');
+    }
 }
